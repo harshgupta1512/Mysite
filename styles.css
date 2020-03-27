@@ -1,0 +1,184 @@
+.top-container{
+  background-color: #cff1ef;
+  text-align: center;
+  position: relative;
+  padding-top: 150px;
+}
+.middle-container{
+  background-color: #d4f8e8;
+  text-align: center;
+  padding-bottom: 140px;
+}
+.bottom-container{
+  position: relative;
+  text-align: center;
+  background-color: #66BFBF;
+  padding-top:  50px;
+  padding-bottom: 1em;
+}
+h1{
+  font-size: 5rem;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color:#66BFBF;
+  font-family: 'Great Vibes', cursive;
+}
+body{
+  margin:0;
+  font-family: 'Special Elite', cursive;
+}
+h2{
+  color:#66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+  margin:0;
+  font-family: 'Abril Fatface', cursive;
+}
+h3{
+  color:#11999E;
+  font-family: 'Abril Fatface', cursive;
+}
+span{
+  text-decoration: underline;;
+}
+.t-cloud{
+  position: absolute;
+  right: 460px;
+  top:120px;
+}
+/* main point to note here is we need to set the position of clouds relative to top container and to do it we need to make position of top container relative so we can set its childrens position relative to it than relative to body
+*/
+.b-cloud{
+  position:absolute;
+  top:380px;
+  left:440px;
+}
+.ul1{
+  display: inline;
+  text-align: center;
+}
+li{
+  display:inline;
+}
+#li1{
+  position: relative;
+  top:55px;
+}
+#li2{
+  position: relative;
+  left:120px;
+}
+#li3{
+  position: relative;
+  left:40px;
+}
+.profile{
+  height:400px;
+}
+.skill-row{
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+  margin: 100px auto 200px auto;
+}
+.myimg{
+  margin: 50px;
+  height:200px;
+  width:200px;
+}
+.skills{
+  position: relative;
+  top:50px;
+}
+.skill1-img{
+  float:left;
+  width: 25%;
+  margin-top:  50px;
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+.skill2-img{
+  position: relative;
+  bottom:50px;
+  float: right;
+  width: 25%;
+  margin-top:  50px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+#a{
+  font-weight: normal;
+}
+#pid{
+  margin-bottom: 30px;
+}
+hr{
+  margin-top:50px;
+  clear:both;
+  margin-bottom: 50px;
+  border-style: none;
+  border-top-style: dotted;
+  height: 0;
+  width: 4%;
+  border-color: grey;
+  border-width: 6px;
+}
+.btn {
+    position: relative;
+    top:40px;
+  background: #11cdd4;
+  background-color: #d4f8e8;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Special Elite', cursive;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.footer-link{
+  margin-right:  20px;
+  color:#11999E;
+  font-size: 1.4em;
+}
+#p1{
+  font-size: 1.2em;
+  margin: 50px;
+   color:#EAF6F6;
+}
+.contact-me{
+  background-color: #d4f8e8;
+  position: relative;
+  top:50px;
+  line-height: 2;
+  height:250px;
+  bottom: 0px;
+}
+#hr1{
+  position: relative;
+  top:50px;
+}
+a{
+  text-decoration: none;
+  font-family:  'Abril Fatface', cursive;
+}
+a:hover{
+  color:white;
+}
